@@ -18,7 +18,7 @@ class TestEmail:
         # 进入登录的iframe框架
         self.login_page.switch_to_frame_login()
         # 登录，输入账号密码
-        self.login_page.login("15703070836", "Hm12012326")
+        self.login_page.login("xx", "xx")
         # 跳出login框架
         self.driver.switch_to.default_content()
 
